@@ -10,7 +10,7 @@ pred adj{
 run adj
 
 pred eq{
-  f.g in iden and g.f in iden
+  f.g = (A<:iden) and g.f = (B<:iden)
 }
 run eq
 
